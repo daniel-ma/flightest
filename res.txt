@@ -1,0 +1,36 @@
+<div class="searchnum">
+<table border="0" cellpadding="0" cellspacing="0" style="margin-bottom:10px;" title="点击下载飞常准软件" width="660">
+<tr>
+<td width="25%"><a href="http://itunes.apple.com/cn/app/id498818574?mt=8" target="_blank"><img src="http://cdn.feeyo.com/fimg/index/image/vTop1.gif" style="border:0"/></a></td>
+<td width="25%"><a href="http://sha1.feeyo.com/Android-VeryZhun.apk" target="_blank"><img src="http://cdn.feeyo.com/fimg/index/image/vTop2.gif" style="border:0"/></a></td>
+<td width="25%"><a href="http://itunes.apple.com/cn/app/fei-chang-zhunhd-hang-ban/id517218333?mt=8" target="_blank"><img src="http://cdn.feeyo.com/fimg/index/image/vTop3.gif" style="border:0"/></a></td>
+<td width="25%"><a href="http://itunes.apple.com/us/app/id469338840?mt=8" target="_blank"><img src="http://cdn.feeyo.com/fimg/index/image/vTop4.gif" style="border:0"/></a></td>
+</tr>
+</table>
+<div class="searchmenu">
+<em>
+<form action="http://www.veryzhun.com/searchnum.asp" method="post" name="search">
+<input class="barial" name="flightnum" onmousedown="javascript:flightnum.value='';" size="25" value="按航班号搜索航班动态"/>
+<img align="absbottom" onclick="search.submit();" src="http://www.variflight.com/images/b_search.gif" style="cursor:hand">
+</img></form>
+<form action="http://www.veryzhun.com/orderflightstatusnext.asp" id="orderform" method="post" name="orderform">
+<input name="flightnum" type="hidden" value="ZH9992"/><input name="FlightDate2" type="hidden" value="2013-3-6"/><input name="FlightNo2" type="hidden" value="ZH9992"/>
+</form>
+</em>
+<span><b class="f14">ZH9992航班动态查询结果：</b></span><a href="http://www.airtu.com/FlightMap/FlightMap.html?fno=ZH9992" style="color:#FF0000;font-weight:bold; font-size:13px" target="_blank" title="查看ZH9992航班实时飞行地图"><img border="0" src="http://cdn.feeyo.com/fimg/images/atop_new.gif"/>ZH9992航班实时飞行地图</a>
+</div>
+<div align="left" style="font-size:13px;height:24px;line-height:24px;color:#999;">   <font style="color:#FF0000;font-family:Arial, Helvetica, sans-serif;margin-bottom:1px;">ZH9992航班查询结果时间均为当地时间</font></div>
+<div style="font-size:13px;height:26px;line-height:26px; text-indent:10px;color:#999;border-top:1px solid #e1e1e1;margin-bottom:1px;border-left:0;border-right:0">飞常准提供ZH9992航班动态，ZH9992航班状态，ZH9992航班查询，订制ZH9992航班短信等服务。</div>
+<div class="numdap"><ul><li class="num_here">合肥</li></ul><div class="numtime"><p>计划起飞时间：09:50</p><p>预计起飞时间：09:50</p><p>实际起飞时间：09:55</p></div><ul><li><div class="wea" title="北京时间00:00发布"><table border="0" cellpadding="0" cellspacing="0" style="line-height:220%" width="0"><tr><td rowspan="2"><a href="http://www.feeyo.com/weather/show.asp?airport=HFE" target="_blank"><img align="absmiddle" alt="晴天" src="http://www.veryzhun.com/image/wea/sun.png"/></a></td><td class="f30" rowspan="2">10℃</td></tr></table></div></li><li class="njd"><img align="absmiddle" alt="能见度" height="16" src="http://www.feeyo.com/img/weather/njd.gif" width="16"/>能见度9999米</li><li class="state">机场小面积延误。</li></ul></div><div class="numinfo"><ul><li class="num_here">ZH9992</li></ul><div class="numtimestate"><div align="center"><div align="center"><img alt="已经到达" src="http://www.veryzhun.com/image/state_2.gif"/></div><p>飞机状态：<span class="red">已经到达</span></p></div></div><ul><table align="center" border="0" cellpadding="0" cellspacing="0" class="tab1" height="62" width="190"><tr><td style="padding-left:15px;"><div class="photo"><a href="http://wiki.carnoc.com/wiki/ZH" target="_blank"><img src="http://cdn.feeyo.com/fimg/ticket/img/air/ZH.gif"/></a></div></td><td class="airname"><a href="http://wiki.carnoc.com/wiki/ZH" target="_blank">深圳航空公司</a></td></tr><tr><td style="padding-left:15px;"><a href="http://pic.feeyo.com/plane/ZH737.html" target="_blank"><img class="air_p" src="http://cdn.feeyo.com/fimg/plane/ZH738.jpg"/></a></td><td class="airname" style="padding-left:5px;">机型：<a href="http://wiki.carnoc.com/wiki/737" target="_blank">737-800</a><br>历史准点率：93.33%</br></td></tr></table><li><span><img src="http://www.veryzhun.com/image/airline.gif"/></span><p class="planestate">准点，飞机目前抵达深圳</p></li></ul></div><div class="numarr"><ul><li class="num_here">深圳B区</li></ul><div class="numtime"><p>计划到达时间：11:50</p><p>预计到达时间：11:50</p><p>实际到达时间：11:49</p></div><ul><li><div class="wea" title="北京时间00:00发布"><table border="0" cellpadding="0" cellspacing="0" style="line-height:220%" width="0"><tr><td rowspan="2"><a href="http://www.feeyo.com/weather/show.asp?airport=SZX" target="_blank"><img align="absmiddle" alt="晴天" src="http://www.veryzhun.com/image/wea/sun.png"/></a></td><td class="f30" rowspan="2">17℃</td></tr></table></div></li><li class="njd"><img align="absmiddle" alt="能见度" height="16" src="http://www.feeyo.com/img/weather/njd.gif" width="16"/>能见度9999米</li><li class="state">机场小面积延误。</li></ul></div><table width="660px"><tr><td align="right"><a href="http://www.feeyo.com/phone/?phone=very_android" style=" font-size:14px; color:#666666; font-weight:bold; font-family:'宋体';"><img height="22px" src="http://www.veryzhun.com/image/btn-As.gif" width="20px"/>安卓跟踪　　</a><a href="http://www.feeyo.com/phone/veryzhun/free.html" style=" font-size:14px; color:#666666; font-weight:bold; font-family:'宋体';"><img height="22px" src="http://www.veryzhun.com/image/btn-Is.gif" width="20px;"/>iPhone跟踪</a><a href="http://www.veryzhun.com/orderflightstatusnext.asp?FlightNo=ZH9992" style=" font-size:14px; color:#666666; font-weight:bold; font-family:'宋体';">　　<img height="22px" src="http://www.veryzhun.com/image/btn-Ps.gif" width="20px;"/>免费短信跟踪</a></td></tr></table>
+<div align="right" style="font-size:13px;height:26px;line-height:26px; text-indent:10px;color:#999;border-top:1px solid #e1e1e1;margin-bottom:1px;border-left:0;border-right:0; padding-top:5px;">以上数据仅供参考，请以航空公司机场通知为准</div>
+<!--<table width="660px"><tr><td width="33%"><a href="http://www.feeyo.com/phone/?phone=very_iphone" target="_blank"><img src="http://www.veryzhun.com/image/btn-A.gif" width="183px" height="40px"  style="cursor:hand;" border="0"/></a></td><td width="33%"><a href="http://www.feeyo.com/phone/?phone=very_android" target="_blank"><img src="http://www.veryzhun.com/image/btn-I.gif" width="183px" height="40px" style="cursor:hand;" border="0" /></a></td><td width="34%"> <div class="ser_order"><input type="image" src="http://www.veryzhun.com/image/btn-P.gif" alt="手机免费跟踪航班" onclick="orderform.submit();"></div></td></table> -->
+<p style="clear:both"></p>
+<div class="s_hbdt">
+<div class="s_hbdtnr">
+<form action="http://www.veryzhun.com/searchnum.asp" method="post" name="search2">
+						航班号：<span class="barial"><input class="s_hbdtinput/" name="flightnum" size="30" style="height:17px;" type="text" value="ZH9992"/></span>
+<input align="top" name="image" onclick="search2.submit();" src="http://www.veryzhun.com/image/s_hbdtbut.jpg" type="image"/>
+</form>
+</div>
+</div>
+</div>
