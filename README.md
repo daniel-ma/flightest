@@ -27,3 +27,11 @@ we will use web spider to fetch public info from veryzhun.com and get structured
 	,'eArriveTime':'11:50'                     //estimate arrive time
 	,'pTakeOffTime':'09:50'}                   //planed take off time
 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+2013-03-21
+fixed several bugs:
+1. handle exceptions when spider deal empty contents
+2. store the data into mysql db instead of txt files
+3. allow set start position when start spider
+

@@ -1,0 +1,2 @@
+Intro:
+https://developer.flightstats.com/api-docs/connections/v1/flightsresponse#xmlExample
