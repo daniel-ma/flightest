@@ -1,5 +1,5 @@
 #!/bin/usr/python
-# coding: UTF-8
+# coding: utf-8
 
 import urllib2
 import re
@@ -14,9 +14,7 @@ from cl import parseXML
 #Output:
 #      return a dictionary including all info received 
 def fetchFlightInfo(flightID):
-	url = 'http://www.veryzhun.com/fnumber/num/'+str(flightID)+'.html'
-	#print url
-	c = urllib2.urlopen(url)
+	c = urllib2.urlopen('http://www.veryzhun.com/fnumber/num/'+flightID+'.html')
 
 	soup = BeautifulSoup(c.read())
 
@@ -27,7 +25,7 @@ def fetchFlightInfo(flightID):
 	basicInfo= parse.parseVeryZhunFnumber()
 	timeInfo = parse.updateTimeOnVeryZhun()
 	entireInfo = dict(basicInfo.items() + timeInfo.items())
-	dictOutput(entireInfo)
+	#dictOutput(entireInfo)
 	return entireInfo
 
 # standard output stream and show unicode in utf-8 format

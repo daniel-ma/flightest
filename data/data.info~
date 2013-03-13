@@ -1,0 +1,18 @@
+start the fetch now!
+parse flightId: ZH9992
+{'status':'准点，飞机目前抵达深圳','accuracyRate':'93.33%','planeID':'ZH9992','rArriveTime':'11:45','from':'合肥','fVisibility':'能见度4500米','company':'深圳航空公司','tVisibility':'能见度6000米','fTemp':'5℃','fWeather':'轻雾','planeType':'737-800','to':'深圳B区','tairportCondition':'机场小面积延误。','eTakeOffTime':'09:50','fAirportCondition':'机场流量正常。','tWeather':'多云','pArriveTime':'11:50','tTemp':'22℃','eArriveTime':'11:42','rTakeOffTime':'09:50','pTakeOffTime':'09:50'}
+parse flightId: ZH9991
+{'status':'准点，飞机目前抵达合肥','accuracyRate':'96.67%','planeID':'ZH9991','rArriveTime':'08:44','from':'深圳B区','fVisibility':'能见度6000米','company':'深圳航空公司','tVisibility':'能见度4500米','fTemp':'22℃','fWeather':'多云','planeType':'737-800','to':'合肥','tairportCondition':'机场流量正常。','eTakeOffTime':'07:00','fAirportCondition':'机场小面积延误。','tWeather':'轻雾','pArriveTime':'08:50','tTemp':'5℃','eArriveTime':'08:46','rTakeOffTime':'07:10','pTakeOffTime':'07:00'}
+parse flightId: ZH9990
+{'status':'晚点35分钟，飞机目前抵达深圳','accuracyRate':'76.67%','planeID':'ZH9990','rArriveTime':'19:40','from':'合肥','fVisibility':'能见度4500米','company':'深圳航空公司','tVisibility':'能见度6000米','fTemp':'5℃','fWeather':'轻雾','planeType':'A320-200','to':'深圳B区','tairportCondition':'机场小面积延误。','eTakeOffTime':'17:05','fAirportCondition':'机场流量正常。','tWeather':'多云','pArriveTime':'19:05','tTemp':'22℃','eArriveTime':'19:29','rTakeOffTime':'17:33','pTakeOffTime':'17:05'}
+parse flightId: ZH9989
+{'status':'晚点17分钟，飞机目前抵达合肥','accuracyRate':'86.67%','planeID':'ZH9989','rArriveTime':'16:32','from':'深圳B区','fVisibility':'能见度6000米','company':'深圳航空公司','tVisibility':'能见度4500米','fTemp':'22℃','fWeather':'多云','planeType':'A320-200','to':'合肥','tairportCondition':'机场流量正常。','eTakeOffTime':'14:25','fAirportCondition':'机场小面积延误。','tWeather':'轻雾','pArriveTime':'16:15','tTemp':'5℃','eArriveTime':'16:35','rTakeOffTime':'14:58','pTakeOffTime':'14:25'}
+parse flightId: ZH9988
+{'status':'晚点36分钟，飞机目前抵达西安','accuracyRate':'80.00%','planeID':'ZH9988','rArriveTime':'15:36','from':'银川','fVisibility':'能见度9999米','company':'深圳航空公司','tVisibility':'能见度4000米','fTemp':'5℃','fWeather':'晴天','planeType':'A320-200','to':'西安T2','tairportCondition':'机场流量正常。','eTakeOffTime':'13:55','fAirportCondition':'机场流量正常。','tWeather':'尘','pArriveTime':'15:00','tTemp':'10℃','eArriveTime':'15:39','rTakeOffTime':'14:43','pTakeOffTime':'13:55'}
+parse flightId: ZH9987
+{'status':'准点，飞机目前抵达西安','accuracyRate':'93.33%','planeID':'ZH9987','rArriveTime':'11:20','from':'深圳B区','fVisibility':'能见度6000米','company':'深圳航空公司','tVisibility':'能见度4000米','fTemp':'22℃','fWeather':'多云','planeType':'A320-200','to':'西安T2','tairportCondition':'机场流量正常。','eTakeOffTime':'08:25','fAirportCondition':'机场小面积延误。','tWeather':'尘','pArriveTime':'11:10','tTemp':'10℃','eArriveTime':'11:20','rTakeOffTime':'09:00','pTakeOffTime':'08:25'}
+parse flightId: ZH9986
+{'status':'准点，飞机目前抵达深圳','accuracyRate':'96.67%','planeID':'ZH9986','rArriveTime':'12:53','from':'昆明','fVisibility':'能见度9999米','company':'深圳航空公司','tVisibility':'能见度6000米','fTemp':'11℃','fWeather':'少云','planeType':'737-800','to':'深圳B区','tairportCondition':'机场小面积延误。','eTakeOffTime':'10:50','fAirportCondition':'机场小面积延误。','tWeather':'多云','pArriveTime':'12:50','tTemp':'22℃','eArriveTime':'12:42','rTakeOffTime':'11:09','pTakeOffTime':'10:50'}
+parse flightId: ZH9985
+{'status':'准点，飞机目前抵达昆明','accuracyRate':'96.67%','planeID':'ZH9985','rArriveTime':'09:54','from':'深圳B区','fVisibility':'能见度6000米','company':'深圳航空公司','tVisibility':'能见度9999米','fTemp':'22℃','fWeather':'多云','planeType':'737-800','to':'昆明','tairportCondition':'机场小面积延误。','eTakeOffTime':'07:30','fAirportCondition':'机场小面积延误。','tWeather':'少云','pArriveTime':'10:00','tTemp':'11℃','eArriveTime':'09:48','rTakeOffTime':'07:47','pTakeOffTime':'07:30'}
+
