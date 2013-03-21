@@ -7,16 +7,27 @@ import MySQLdb
 import dbInfo
 import fetchFlightInfo
 import db3
+import logging
 
+LOG_FILENAME="log/error.txt"
+
+def loggingSet():
+	logger=logging.getLogger()
+	handler=logging.FileHandler(LOG_FILENAME)
+	logger.addHandler(handler)
+	logger.setLevel(logging.NOTSET)
+	return logger
 
 def startPerHour(): #check last two hour landed airplane
+	log=loggingSet()
 	timeNow = time.strftime("%H:%M",time.localtime())# just keep hour and minute ,delete date info here
 	timeNow = datetime(* time.strptime(timeNow,"%H:%M")[:6]) # transfer date str into datetime format
 	timeSin= timeNow+timedelta(hours=-2) # time of 2 hours before
+	log.info("Spider Start at : %s "% datetime(*time.localtime()[:6]) ) #record start time
 	try: #conn to db
 		conn = MySQLdb.connect(host=dbInfo.DBLOC,user=dbInfo.DBUSER,passwd=dbInfo.DBPASS,db=dbInfo.DBSCHEMA,charset='utf8')
 	except:
-		print "could not connect to the db server now! please try again"
+		log.error( "could not connect to the db server now! please try again")
 		exit(0)
 	try:
 		cur = conn.cursor()
@@ -33,10 +44,10 @@ def startPerHour(): #check last two hour landed airplane
 				print "flightId %s has no data"% flightId
 			db3.dbwrite(res)
 			time.sleep(0.2)
-		print "Finished! Total amount=",count
+		log.info( "Finished! Total amount= %s"% count)
 			
 	except Exception,e:
-		print e.args[0]
+		log.error( "error info :%s" %e.args[0])
 
 	cur.close()
 	conn.close()
