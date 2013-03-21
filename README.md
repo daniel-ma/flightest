@@ -3,7 +3,7 @@ filghtest (China)
 
 this project aims to estimate the flight delay of chinese airplane companies.
 
-Step one:
+Data Structure:
 we will use web spider to fetch public info from veryzhun.com and get structured data in following format:
 	{'status':'准点，飞机目前抵达深圳'            //the final status of one certain flight
 	,'accuracyRate':'93.33%'                     //avg accuracy rate 
@@ -28,10 +28,22 @@ we will use web spider to fetch public info from veryzhun.com and get structured
 	,'pTakeOffTime':'09:50'}                   //planed take off time
 
 
+File Structure:
+
+count.py :  #use to cacluate the total number of flights in China per day
+db3.py   :  #use to write the dictionary result into db
+dbInfo.py:  #storage the Global parameters of DB connection
+fetchFlightInfo.py : #Get flight's real depart and land info from veryzhun.com
+flightAutoSPider.py: #Get last two hours depart and land info
+UpdateDBSchedule.py: #update airplane's depart and land schedule
+cl/parseXML.py :     #paserXML veryzhun.com page
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////
 2013-03-21
-fixed several bugs:
+Fix several bugs:
 1. handle exceptions when spider deal empty contents
 2. store the data into mysql db instead of txt files
 3. allow set start position when start spider
 
+2013-03-22
+1. develop the auto-check mechanism

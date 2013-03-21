@@ -4,11 +4,8 @@
 import logging
 import MySQLdb
 from datetime import date 
+from dbInfo import *
 
-DBLOC="192.168.1.104"
-DBUSER="root"
-DBPASS="RooT"
-DBSCHEMA="airplane"
 
 def dbwrite(dic):  #write the dictionary result into db 
 	try:

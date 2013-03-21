@@ -5,6 +5,8 @@ import time
 #import logging
 import fetchFlightInfo
 import db3
+import dbInfo
+import MySQLdb
 
 startPos = 0 #starter number
 endPos = 5999 #ender number
@@ -39,6 +41,10 @@ def start():
 
 	c.close()
 	#output.close()
+
+
+
+
 
 if __name__ == "__main__":
 	try:
